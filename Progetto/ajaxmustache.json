@@ -1,0 +1,28 @@
+{
+  "articoli": [
+  {
+  	"title":"Article Title 1",
+    "img": "https://st3.depositphotos.com/8477352/19212/v/1600/depositphotos_192124368-stock-illustration-touch-future-interface-technology-future.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+  },
+
+  {
+  	"title":"Article Title 2",
+    "img": "https://www.noisiamofuturo.it/wp-content/uploads/2017/04/immagine.jpeg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+    },
+
+  {
+  	"title":"Article Title 3",
+    "img": "https://images.wired.it/wp-content/uploads/2017/09/13022904/1505255340_Bankoboev.Ru_robot_futbolist.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+  },
+
+  {"title":"Article Title 4",
+    "img": "http://www.smartweek.it/wpsw/wp-content/uploads/2014/11/jorge-lizama-cybermedios-tecnologia-digital-dispositivo-vs-servomecanismo-e1417293636490.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+}
