@@ -82,5 +82,5 @@ module.exports=function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-less');
 
 	grunt.task.registerTask('develop',['watch']);
-	grunt.task.registerTask('build',['cssmin','babel','uglify','serve']);
+	grunt.task.registerTask('build',['cssmin','browserify','babel','uglify','serve']);
 };

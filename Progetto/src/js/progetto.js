@@ -1,41 +1,14 @@
 const $ = require('jquery');
+const Mustache = require('Mustache');
 
-/*
-//Java Scrip: come far scomparire il cookie al click di here
+/*JAVA SCRIPT: come far scomparire il cookie al click di here
 var here=document.getElementById('here');
 function closeCookie() {
 	document.getElementById('cookie_delete').style.display='none';
 };
-here.addEventListener("click",closeCookie);*/
-	$(document).ready(function(){
-		$.ajax({
-	    	type: 'GET',
-		    url: 'ajax.json',
-		    dataType: 'json',
-	    	success: function (chiamata) {
-		        for (var i = 0; i < chiamata.length; i++) 
-		        $('#newArticle').append(chiamata[i]).text);	
-		        },
-		    error: function () {
-		        alert("Chiamata fallita");
-		    }
-		});
-	
-});
- 
+here.addEventListener("click",closeCookie);
 
-//Jquery: come far scomparire il cookie al click di here
-$('#here').on('click', () => {
-  $('.cookie').hide();
-});
-
- /*
- $('.btn btn-default').on('click',event =>{
-   $(event.currentTarget).ToggleClass('.btn btn-success');
- });
- 
-/*
-//JavaScript: come modificare il colore del like al click del mouse
+JavaScript: come modificare il colore del like al click del mouse
 for (var i = 0; i <like.length;  i++) {
 	like[i].addEventListener("click",function(){
 		
@@ -45,4 +18,37 @@ for (var i = 0; i <like.length;  i++) {
 			this.style.backgroundColor="white";	
 	}
 	});
-}*/
+} */
+
+//JQUERY: come far scomparire il cookie al click di here
+$('#here').on('click', () => {
+	$('.cookie').fadeout();
+});
+
+//Jquery: come modificare il colore del like al click del mouse
+$('.btn, .btn-default').on('click', event => {
+	$(event.currentTarget).toggleClass("btn-success");
+});
+
+//Chiamata Ajax
+$(document).ready(function(){
+	$.ajax({
+		type: 'GET',
+		url: 'ajax.json',
+		dataType: 'json',
+		success: function (chiamata) {
+			var template = $('#template').html();
+			console.log(template);
+			var rendered = Mustache.render(template, chiamata);
+			console.log('il renderizzato:');
+			console.log(rendered);
+			$('#articoli').html(rendered);
+	},
+	error: function (chiamataFallita) {
+		alert("Chiamata fallita");
+	}
+});
+
+});
+
+

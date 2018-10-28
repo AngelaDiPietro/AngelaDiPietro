@@ -1,12 +1,29 @@
-[{
-"text": "Pippo"
-},
 {
-"text": "Pluto"
-},
-{
-"text": "Paperino"
-},
-{
-"text": "Topolino"
-}]
+  "articoli": [
+  {
+  	"title":"Article Title 1",
+    "img": "https://www.lse.ac.uk/management/assets/images/research/technology-600x600.png",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+  },
+
+  {
+  	"title":"Article Title 2",
+    "img": "http://mpatech.eu/home/wp-content/uploads/2017/06/wirelesscharge-600x600.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+    },
+
+  {
+  	"title":"Article Title 3",
+    "img": "https://www.tnet.it/wp-content/uploads/2018/07/cloud-server-600x600.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+  },
+
+  {"title":"Article Title 4",
+    "img": "https://www.tnet.it/wp-content/uploads/2018/08/cloudbag-600x600.jpg",
+    "text": "Donec consequat mattis tempor. Morbi a nisi sapien. Nulla tempus odio sit amet lacus ornare vestibulum. Aliquam erat volutpat. Nam sit amet ante ligula. Sed vitae iaculis nisl. Donec tempus ex egestas sollicitudin pretium.",
+    "tech": "tech"
+  }]
+}

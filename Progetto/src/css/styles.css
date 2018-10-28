@@ -135,12 +135,9 @@ footer{
 }
 */
 .jumbotron {
-  padding-left: 4%;
+  padding: 3% 4%;
 }
-.col-xs-12 col col-sm-6 col-md-4 {
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
+
 footer {
   padding: 1.5% 4% 2% 4%;
   margin: 0  4% 0 0;
@@ -164,4 +161,9 @@ div.cookie {
 .row {
   margin-left: 4%;
   margin-right: 4%;
+
+}
+
+.btn-default {    
+  margin-bottom: 7%;
 }
