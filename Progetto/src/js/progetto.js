@@ -1,5 +1,5 @@
 const $ = require('jquery');
-//const Mustache = require('Mustache');
+const Mustache = require('Mustache');
 
 /*JAVA SCRIPT: come far scomparire il cookie al click di here
 var here=document.getElementById('here');
@@ -25,16 +25,22 @@ $('#here').on('click', () => {
 	$('.cookie').fadeOut();
 });
 
-//Jquery: come modificare il colore del like al click del mouse
+/*//Jquery: come modificare il colore del like al click del mouse
 $('.btn-default').on('click', event => {
 	$(event.currentTarget).toggleClass("btn-success");
-});
+});*/
 
-/**Chiamata Ajax con Mustache
+$( document ).ajaxComplete(function() {
+  $('article .btn, .btn-default').on('click', event => {
+      $(event.currentTarget).toggleClass("btn-success");
+  });
+})
+
+
 $(document).ready(function(){
 	$.ajax({
 		type: 'GET',
-		url: 'ajaxmustache.json',
+		url: '/articoli',
 		dataType: 'json',
 		success: function (chiamata) {
 			var template = $('#template').html();
@@ -49,7 +55,7 @@ $(document).ready(function(){
 });
 
 });
-**/
+/*
 $(document).ready(function(){
 	$.ajax({
 	url: 'ajax.json',
@@ -82,3 +88,4 @@ $(document).ready(function(){
 	}
 });
 });
+*/
