@@ -8,8 +8,8 @@
   },
 
   {"title":"Article Title 2",
-     "image": "https://www.noisiamofuturo.it/wp-content/uploads/2017/04/immagine.jpeg",
-      "text": "http://www.automazionenews.it/files/2015/05/apertura.jpg",
+     "image": "http://www.automazionenews.it/files/2015/05/apertura.jpg",
+      "text": "Donec id elit non mi porta gravida at eget metus. Lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.",
       "tech": "tech",
       "like": true
     },

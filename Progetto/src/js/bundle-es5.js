@@ -10644,6 +10644,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 				}
 			});
 		});
+
 		/*
   $(document).ready(function(){
   	$.ajax({
